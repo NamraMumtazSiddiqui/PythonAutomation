@@ -57,5 +57,5 @@ time.sleep(4)
 select.select_by_index(1)
 time.sleep(3)
 select.select_by_visible_text('US Dollar')
-time.sleep(3)
+time.sleep(5)
 
