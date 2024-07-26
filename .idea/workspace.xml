@@ -43,14 +43,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Commands.executor": "Run",
-    "Python.Navigational and Wait Commands.executor": "Debug",
+    "Python.Navigational and Wait Commands.executor": "Run",
+    "Python.Python Console.executor": "Run",
     "Python.Search and Dropdown.executor": "Run",
     "Python.Test.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "TestBranch",
+    "git-widget-placeholder": "MainBranch",
     "last_opened_file_path": "C:/Users/HP/PycharmProjects/Test Automation-786/Browsers",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "vcs.Git"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -68,7 +69,7 @@
       <recent name="C:\Users\HP\PycharmProjects\Test Automation-786\Browsers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Navigational and Wait Commands">
+  <component name="RunManager" selected="Python.Python Console">
     <configuration name="Commands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test Automation-786" />
       <option name="ENV_FILES" value="" />
@@ -91,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Navigational and Wait Commands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Navigational and Wait Commands" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Test Automation-786" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +106,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test Cases/Navigational and Wait Commands.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Test Automation-786" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="/Python Console.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +182,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Navigational and Wait Commands" />
+        <item itemvalue="Python.Python Console" />
         <item itemvalue="Python.Commands" />
         <item itemvalue="Python.Search and Dropdown" />
       </list>
@@ -208,18 +231,77 @@
       <option name="project" value="LOCAL" />
       <updated>1721993225458</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Done">
+      <option name="closed" value="true" />
+      <created>1721993311223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721993311223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="34ab0bac-b6b2-44e5-9b90-11c7083a6a00" value="TOOL_WINDOW" />
+        <entry key="484ae494-ac3a-4c8d-9215-01503f58f4bf" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="TestBranch" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="TAB_STATES">
       <map>
         <entry key="34ab0bac-b6b2-44e5-9b90-11c7083a6a00">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="TestBranch" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="484ae494-ac3a-4c8d-9215-01503f58f4bf">
           <value>
             <State>
               <option name="FILTERS">
@@ -241,6 +323,23 @@
                 </map>
               </option>
               <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="TestBranch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
