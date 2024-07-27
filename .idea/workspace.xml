@@ -18,11 +18,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="NamraMumtazSiddiqui" />
       </list>
     </option>
+=======
+>>>>>>> origin/TestBranch
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -46,6 +49,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.Commands.executor&quot;: &quot;Run&quot;,
@@ -64,6 +68,26 @@
       &quot;directory&quot;,
       &quot;module&quot;,
       &quot;repository&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Commands.executor": "Run",
+    "Python.Navigational and Wait Commands.executor": "Run",
+    "Python.Python Console.executor": "Run",
+    "Python.Search and Dropdown.executor": "Run",
+    "Python.Test.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "MainBranch",
+    "last_opened_file_path": "C:/Users/HP/PycharmProjects/Test Automation-786/Browsers",
+    "settings.editor.selected.configurable": "vcs.Git"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+>>>>>>> origin/TestBranch
     ]
   }
 }</component>
@@ -75,7 +99,11 @@
       <recent name="C:\Users\HP\PycharmProjects\Test Automation-786\Browsers" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.PythonPractice">
+=======
+  <component name="RunManager" selected="Python.Python Console">
+>>>>>>> origin/TestBranch
     <configuration name="Commands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Test Automation-786" />
       <option name="ENV_FILES" value="" />
@@ -98,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Navigational and Wait Commands" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Navigational and Wait Commands" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Test Automation-786" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +148,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="PythonPractice" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="Python Console" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> origin/TestBranch
       <module name="Test Automation-786" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,11 +161,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonBeginners" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonBeginners/PythonPractice.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="/Python Console.py" />
+>>>>>>> origin/TestBranch
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,9 +228,13 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.PythonPractice" />
         <item itemvalue="Python.Search and Dropdown" />
         <item itemvalue="Python.Navigational and Wait Commands" />
+=======
+        <item itemvalue="Python.Python Console" />
+>>>>>>> origin/TestBranch
         <item itemvalue="Python.Commands" />
         <item itemvalue="Python.Navigational and Wait Commands" />
       </list>
@@ -231,6 +275,7 @@
       <option name="project" value="LOCAL" />
       <updated>1721989567399</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
       <created>1721998932377</created>
@@ -344,7 +389,146 @@
       <updated>1722051590360</updated>
     </task>
     <option name="localTasksCounter" value="17" />
+=======
+    <task id="LOCAL-00003" summary="Done">
+      <option name="closed" value="true" />
+      <created>1721993225458</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721993225458</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Done">
+      <option name="closed" value="true" />
+      <created>1721993311223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721993311223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Done">
+      <option name="closed" value="true" />
+      <created>1721995031185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721995031185</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Done">
+      <option name="closed" value="true" />
+      <created>1721995117118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1721995117118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+>>>>>>> origin/TestBranch
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="34ab0bac-b6b2-44e5-9b90-11c7083a6a00" value="TOOL_WINDOW" />
+        <entry key="484ae494-ac3a-4c8d-9215-01503f58f4bf" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="TestBranch" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="34ab0bac-b6b2-44e5-9b90-11c7083a6a00">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="TestBranch" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="HIGHLIGHTERS">
+                <map>
+                  <entry key="MY_COMMITS" value="true" />
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="484ae494-ac3a-4c8d-9215-01503f58f4bf">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="TestBranch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done" />
