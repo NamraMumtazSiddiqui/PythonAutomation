@@ -311,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722051180166</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="git commit -m &quot;Changes Done&quot;&#10;git push origin Master&#10;&#10;Signed-off-by: NamraMumtazSiddiqui &lt;mumtaznamra@gmail.com&gt;&#10;&#10;git">
+      <option name="closed" value="true" />
+      <created>1722051236690</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722051236690</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
