@@ -1,4 +1,4 @@
-#Taking input from user
+#Taking input from the User
 name=input("What is your name? ")
 print("Hello" +name)
 
@@ -32,11 +32,11 @@ print(not price > 4)
 temperature=25
 if temperature>30:
     print("Its a very Hot Day")
-    print("Drink Plenty of water")
+    print("Drink Plenty of Cold Water")
 elif temperature>22:
-    print("Its a very Nice Day")
+    print("Its a Nice Day")
 else:
-    print("Done")
+    print("It is Done")
 
 #If else another excercise with conversions and use input
 
