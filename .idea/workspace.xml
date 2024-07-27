@@ -265,7 +265,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722047660542</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="git commit -m &quot;Changes Done&quot;&#10;git push origin Master">
+      <option name="closed" value="true" />
+      <created>1722047797064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722047797064</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -273,6 +281,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="git commit -m &quot;Your commit message&quot;" />
     <MESSAGE value="git commit -m &quot;Changes Done&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Changes Done&quot;" />
+    <MESSAGE value="git commit -m &quot;Changes Done&quot;&#10;git push origin Master" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Changes Done&quot;&#10;git push origin Master" />
   </component>
 </project>
