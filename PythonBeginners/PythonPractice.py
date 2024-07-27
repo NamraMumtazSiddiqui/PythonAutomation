@@ -34,7 +34,7 @@ if temperature>30:
     print("Its a very Hot Day")
     print("Drink Plenty of water")
 elif temperature>22:
-    print("Its a nice day")
+    print("Its a very nice day")
 else:
     print("Done")
 

@@ -303,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722048077758</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="git commit -m &quot;Changes Done&quot;&#10;git push origin Master&#10;&#10;Signed-off-by: NamraMumtazSiddiqui &lt;mumtaznamra@gmail.com&gt;&#10;&#10;git">
+      <option name="closed" value="true" />
+      <created>1722051180166</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1722051180166</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,6 +322,7 @@
     <MESSAGE value="git commit -m &quot;Changes Done&quot;&#10;git push origin Master" />
     <MESSAGE value="git commit -m &quot;Changes Done&quot;&#10;git commit -m &quot;Changes Done&quot; git push origin Master" />
     <MESSAGE value="git commit -m &quot;Changes Done&quot;&#10;git push origin Master&#10;&#10;Signed-off-by: NamraMumtazSiddiqui &lt;mumtaznamra@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Changes Done&quot;&#10;git push origin Master&#10;&#10;Signed-off-by: NamraMumtazSiddiqui &lt;mumtaznamra@gmail.com&gt;" />
+    <MESSAGE value="git commit -m &quot;Changes Done&quot;&#10;git push origin Master&#10;&#10;Signed-off-by: NamraMumtazSiddiqui &lt;mumtaznamra@gmail.com&gt;&#10;&#10;git" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Changes Done&quot;&#10;git push origin Master&#10;&#10;Signed-off-by: NamraMumtazSiddiqui &lt;mumtaznamra@gmail.com&gt;&#10;&#10;git" />
   </component>
 </project>
