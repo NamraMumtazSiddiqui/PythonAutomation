@@ -33,7 +33,7 @@ temperature=25
 if temperature>30:
     print("Its a hot day")
     print("Drink Plenty of water")
-elif temperature>20 :
+elif temperature>21 :
     print("Its a nice day")
 else:
     print("Done")
