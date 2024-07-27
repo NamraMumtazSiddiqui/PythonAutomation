@@ -40,7 +40,7 @@ else:
 
 #If else another excercise with conversions and use input
 
-weight= int(input("What is your weight"))
+weight= int(input("WHAT is your Weight"))
 unit=input("Do you want to check in Kg(s) or Lb(s): ")
 
 if unit.upper()=='K':
