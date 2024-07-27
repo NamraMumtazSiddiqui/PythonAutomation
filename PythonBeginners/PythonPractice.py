@@ -31,9 +31,9 @@ print(not price > 4)
 #If else condition
 temperature=25
 if temperature>30:
-    print("Its a hot day")
+    print("Its a very Hot Day")
     print("Drink Plenty of water")
-elif temperature>20 :
+elif temperature>22:
     print("Its a nice day")
 else:
     print("Done")
