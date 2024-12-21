@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="71.031" timestamp="2024-10-04T16:31:33.709797+05:00" hostname="DESKTOP-VASKBNE"><testcase classname="Test Cases.test_login.TestOrangeHRM" name="test_homepagetitle" time="29.841" /><testcase classname="Test Cases.test_login.TestOrangeHRM" name="test_login" time="40.974"><failure message="selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;&#09;GetHandleVerifier [0x00007FF671F64C52+3505186]&#10;&#09;(No symbol) [0x00007FF671B90812]&#10;&#09;(No symbol) [0x00007FF671A44145]&#10;&#09;(No symbol) [0x00007FF671A89ADD]&#10;&#09;(No symbol) [0x00007FF671A89C1C]&#10;&#09;(No symbol) [0x00007FF671ACAB27]&#10;&#09;(No symbol) [0x00007FF671AABECF]&#10;&#09;(No symbol) [0x00007FF671AC83B2]&#10;&#09;(No symbol) [0x00007FF671AABC33]&#10;&#09;(No symbol) [0x00007FF671A7D618]&#10;&#09;(No symbol) [0x00007FF671A7E6B1]&#10;&#09;GetHandleVerifier [0x00007FF671F967AD+3708797]&#10;&#09;GetHandleVerifier [0x00007FF671FEFC2D+4074493]&#10;&#09;GetHandleVerifier [0x00007FF671FE7DAF+4042111]&#10;&#09;GetHandleVerifier [0x00007FF671CBA0F6+708806]&#10;&#09;(No symbol) [0x00007FF671B9CACF]&#10;&#09;(No symbol) [0x00007FF671B97CD4]&#10;&#09;(No symbol) [0x00007FF671B97E2C]&#10;&#09;(No symbol) [0x00007FF671B87964]&#10;&#09;BaseThreadInitThunk [0x00007FFECB0A257D+29]&#10;&#09;RtlUserThreadStart [0x00007FFECCA0AF28+40]">self = &lt;test_login.TestOrangeHRM object at 0x000001E577E62C90&gt;
+setup = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="9de4212df92d2e8dc2c7b5535daeca94")&gt;
+
+    def test_login(self, setup):
+        self.driver.get("https://opensource-demo.orangehrmlive.com/auth/login")
+    
+        # Wait for the username field and enter the username
+        username_field = WebDriverWait(self.driver, 30).until(
+            EC.element_to_be_clickable((By.NAME, "username"))
+        )
+        username_field.clear()
+        username_field.send_keys("Admin")
+    
+        # Wait for the password field and enter the password
+        password_field = WebDriverWait(self.driver, 30).until(
+            EC.element_to_be_clickable((By.NAME, "password"))
+        )
+        password_field.clear()
+        password_field.send_keys("admin123")
+    
+        # Click the login button
+        login_button = WebDriverWait(self.driver, 10).until(
+            EC.element_to_be_clickable((By.TAG_NAME, "button"))
+        )
+        login_button.click()
+    
+        # Assert that login was successful by checking for the presence of an element after login
+&gt;       dashboard_element = WebDriverWait(self.driver, 30).until(
+            EC.presence_of_element_located((By.ID, "dashboard"))
+        )
+
+Test Cases\test_login.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="9de4212df92d2e8dc2c7b5535daeca94")&gt;
+method = &lt;function presence_of_element_located.&lt;locals&gt;._predicate at 0x000001E57A4EC0E0&gt;, message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -&gt; T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            time.sleep(self._poll)
+            if time.monotonic() &gt; end_time:
+                break
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       	GetHandleVerifier [0x00007FF671F64C52+3505186]
+E       	(No symbol) [0x00007FF671B90812]
+E       	(No symbol) [0x00007FF671A44145]
+E       	(No symbol) [0x00007FF671A89ADD]
+E       	(No symbol) [0x00007FF671A89C1C]
+E       	(No symbol) [0x00007FF671ACAB27]
+E       	(No symbol) [0x00007FF671AABECF]
+E       	(No symbol) [0x00007FF671AC83B2]
+E       	(No symbol) [0x00007FF671AABC33]
+E       	(No symbol) [0x00007FF671A7D618]
+E       	(No symbol) [0x00007FF671A7E6B1]
+E       	GetHandleVerifier [0x00007FF671F967AD+3708797]
+E       	GetHandleVerifier [0x00007FF671FEFC2D+4074493]
+E       	GetHandleVerifier [0x00007FF671FE7DAF+4042111]
+E       	GetHandleVerifier [0x00007FF671CBA0F6+708806]
+E       	(No symbol) [0x00007FF671B9CACF]
+E       	(No symbol) [0x00007FF671B97CD4]
+E       	(No symbol) [0x00007FF671B97E2C]
+E       	(No symbol) [0x00007FF671B87964]
+E       	BaseThreadInitThunk [0x00007FFECB0A257D+29]
+E       	RtlUserThreadStart [0x00007FFECCA0AF28+40]
+
+..\..\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\support\wait.py:105: TimeoutException</failure></testcase></testsuite></testsuites>

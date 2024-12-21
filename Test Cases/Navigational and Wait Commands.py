@@ -8,6 +8,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 import time
+
+from urllib3.util import wait
+
 # Path to your chromedriver executable
 driver_path = r"C:\Users\HP\Downloads\Chromedrivers\Drivers\chromedriver.exe"
 
@@ -35,8 +38,18 @@ driver1.back()
 time.sleep(5)
 driver1.forward()
 driver1.refresh()
+#fixed wait
 time.sleep(5)
 
 driver1.close()
+
 #5-Wait Commands
+#Implicitwait
+#It applies to all elements in your test script.
+
+driver1.implicitly_wait(10)
+
+#Explicit Wait
+#Explicit wait tells the WebDriver to wait for a certain condition to be met before proceeding
+#element = wait.until(EC.visibility_of_element_located((By.ID, 'some_id')))
 

@@ -22,6 +22,7 @@ serviceobj = Service(driver_path)
 # to use the serviceobj object created earlier. This object encapsulates the path to the ChromeDriver
 # executable and manages its lifecycle.
 #Class and Constructor
+
 #a constructor itself is not an object. It is a special method
 # designed to initialize objects of a class.
 
@@ -43,7 +44,6 @@ send_search = WebDriverWait(driver1, 20).until(
 send_search.click()
 time.sleep(5)
 
-
 #Search from Dropdown List
 select_element = WebDriverWait(driver1, 10).until(
         EC.presence_of_element_located((By.XPATH,"//select[@id='customerCurrency']"))
@@ -57,9 +57,7 @@ time.sleep(4)
 select.select_by_index(1)
 time.sleep(3)
 select.select_by_visible_text('US Dollar')
-<<<<<<< HEAD
 time.sleep(5)
-=======
-time.sleep(6)
->>>>>>> origin/TestBranch
+
+
 

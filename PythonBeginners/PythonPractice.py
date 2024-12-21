@@ -50,3 +50,42 @@ if unit.upper()=='K':
 else:
     converted_weightK=weight*0.45
     print("Weight in Kg(s) is" + str(converted_weightK))
+
+ #While loop
+i=1
+while i<=10:
+    print(i*"*")
+    i=i+1
+
+# Initialize the starting number of asterisks
+j = 10
+
+# Loop to print the reversed pattern
+while j > 0:
+    print('*' * j)
+    j=j-1
+
+#Lists or Array
+names=["Namra" , "Mumtaz" , "Siddiqui"]
+print(names[0])
+print(names[-2])
+print(names[0:3])
+names.insert(3,"NMS")
+print(names)
+names.remove("NMS")
+names.clear()
+
+#for loop
+for items in names :
+    print(items)
+#same output using for loop
+
+k=0
+while k<len(names):
+    print(names[i])
+    k=k+1
+
+#range function
+numbers=range(5,10)
+for number in numbers:
+    print(number)
